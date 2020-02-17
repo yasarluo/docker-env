@@ -1,0 +1,4 @@
+FROM  php:7.2.27-cli
+VOLUME /php
+WORKDIR /php
+ENTRYPOINT [ "php" ]
